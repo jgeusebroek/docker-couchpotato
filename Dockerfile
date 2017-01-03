@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
-ENV APK_ADD="sudo git py-pip python py-libxml2 py-lxml py-pip make gcc g++ python-dev openssl-dev libffi-dev" \
+ENV APK_ADD="sudo git py2-pip python py-libxml2 py-lxml py-pip make gcc g++ python-dev openssl-dev libffi-dev" \
     APK_DEL="make gcc g++ git python-dev openssl-dev libffi-dev" \
     REFRESHED_AT='2017-01-03'
 
